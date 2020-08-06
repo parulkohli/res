@@ -1,0 +1,215 @@
+body{
+    margin: auto;
+    font-family:fantasy;
+    
+}
+
+nav ul li{
+    list-style: none;
+    float:left;
+    padding-left: 3em;
+    padding-right: 2em;
+    color: #a8e6cf;
+}
+
+nav ul {
+    float: right;
+    
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #dcedc1;
+    position: fixed;
+}
+section{
+    background-color: #ffd3b6;
+}
+.home{
+    background-color: #ffaaa5;
+    text-align: center;
+    padding: 50px;
+    height:100vh;
+    width:auto;
+    
+    
+}
+.home img{
+    display: block;
+    margin-left: 500px;
+    margin-right: 850px;
+    border-radius: 100%;
+    border-style:solid;
+    border-color:khaki;
+    margin-top: 50px;
+}
+.home h1{
+    color:#a8e6cf ;
+     font-size: 70px;
+    text-align: center;
+}
+.about{
+    background-image: url(img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display:table;
+    height:100vh;
+    width:100%;
+    text-align: center;
+}
+.about.inner{
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+ height:100vh;
+}
+.about .inner H1{
+    color:darkgoldenrod;
+    font-size: 70px;
+    font-style:italic;
+}
+.about .inner P{
+    color: aliceblue;
+    font-size: 50PX;
+}
+.education{
+    height:100vh;
+    width:100%;
+    border: 30px;
+    display: table;
+}
+.education .inner{
+    padding: 50px;
+    height: 100vh;
+    width: 90%;
+    text-align: center;
+}
+
+.education .inner H1,.education .inner h2{
+    font-size: 40px;
+    color: #a8e6cf;
+}
+.education .inner H1,.con h1{
+    font-style: oblique;
+    font-weight: 400;
+    width: auto;
+}
+.education .inner img {
+    border-style:solid;
+    border-color: khaki;
+    border-bottom-width: medium;
+    display: inline;
+
+
+}
+.hobb , .con{
+    padding:100px;
+     display:table;
+height: 100vh;
+    width:auto;
+    text-align: center;
+       display: block;
+    margin-top: 100px;
+}
+.hobb.inner{
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+    
+
+}
+.hobb .inner H1, .con h1{
+    vertical-align: middle;
+    color:#a8e6cf ;
+    padding: 60px;
+    display: block;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.hobb .inner img {
+    border-style:solid;
+    border-color:#dcedc1;
+    border-bottom-width:thick;
+    border-image-width: auto;
+    border-radius: 50px;
+    width: auto;
+    height:200px;
+}
+
+.hobb .inner div, .skills .inner div {
+    width:auto;
+    padding-left: 5px;
+    padding-right: 16em;
+   
+    float:LEFT;
+}
+
+
+.skills {
+    padding:50px;
+    height:100vh;
+    width:auto;
+    text-align: center;
+    margin-top: 50px;
+    background-image:url(img/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.skills .inner{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+    color: aliceblue;
+    font-size: 2em;
+    float: left;
+
+}
+
+.skills .inner div ul li{
+list-style-type: none;
+    display: inline-block;
+padding-left: 2em;
+    padding: 30px;
+    page-break-after: auto;
+    float: left;
+   
+    
+
+
+
+}
+
+
+ 
+
+
+.skills H1{
+    color:#a8e6cf ;
+    padding: 60px;
+    display: block;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.con p{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    color:  #dcedc1;
+    font-synthesis: style;
+    font-size: 30px;
+}
+.con{
+    background-image: url(img/cont.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+  
+}
